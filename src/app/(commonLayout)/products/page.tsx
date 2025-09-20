@@ -3,8 +3,14 @@ import { IProduct } from "@/type";
 
 
 const ProductsPage = async () => {
+    //  cache: "force-cache",--> dile data cache kore rakhbe,,,  cache: "no-store", ---> request dile data asbe,,,,, 
+
     const res = await fetch("http://localhost:5000/products", {
-        cache: "force-cache",
+        // cache: "force-cache",
+        cache: "no-store",
+        // next: {
+        //     revalidate: 30
+        // }
     });
     const products = await res.json();
     // console.log(products);
