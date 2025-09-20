@@ -18,6 +18,7 @@ export default function Navbar() {
                         className="w-full max-w-md px-3 py-2 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-indigo-500"
                     />
                 </div>
+                <Link href="/products" className="hover:text-gray-300">Product</Link>
                 <Link href="/gallery" className="hover:text-gray-300">Gallery</Link>
                 <Link href="/about" className="hover:text-gray-300">About</Link>
                 <Link href="/contact" className="hover:text-gray-300">Contact</Link>

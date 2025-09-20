@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "product_name": "Wireless Mouse",
+            "category": "Electronics",
+            "brand": "Logitech",
+            "price": 25.98,
+            "image": "https://www.startech.com.bd/image/cache/catalog/mouse/jedel/w926/w926-black-228x228.webp"
+        },
+        {
+            "id": 2,
+            "product_name": "Bluetooth Headphones",
+            "category": "Electronics",
+            "brand": "Sony",
+            "price": 89.50,
+            "image": "https://img.drz.lazcdn.com/static/bd/p/33f87bba7b34149f2253287d3ac4bce3.jpg_200x200q80.avif"
+        },
+        {
+            "id": 3,
+            "product_name": "Running Shoes",
+            "category": "Footwear",
+            "brand": "Nike",
+            "price": 120.00,
+            "image": "https://img.drz.lazcdn.com/static/bd/p/7001ff505be03b384f149b1f127c4bf9.jpg_200x200q80.avif"
+        },
+        {
+            "id": 4,
+            "product_name": "Smartphone",
+            "category": "Electronics",
+            "brand": "Samsung",
+            "price": 699.99,
+            "image": "https://img.drz.lazcdn.com/static/bd/p/c5edefc23a64b84c71c006fa8a17a3f3.jpg_200x200q80.avif"
+        },
+        {
+            "id": 5,
+            "product_name": "Backpack",
+            "category": "Accessories",
+            "brand": "North Face",
+            "price": 59.95,
+            "image": "https://img.drz.lazcdn.com/static/bd/p/2c44f41e7b7c40a3a80a98857fbec1e8.jpg_200x200q80.avif"
+        },
+        {
+            "id": 6,
+            "product_name": "Mechanical Keyboard",
+            "category": "Electronics",
+            "brand": "Razer",
+            "price": 149.99,
+            "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/xtreme/km71g/km71g-228x228.webp"
+        },
+        {
+            "id": 7,
+            "product_name": "Water Bottle",
+            "category": "Home & Kitchen",
+            "brand": "Hydro Flask",
+            "price": 39.90,
+            "image": "https://img.drz.lazcdn.com/static/bd/p/3a2376a4291d4f1b7566eb4409a66c38.png_200x200q80.avif"
+        },
+        {
+            "id": 8,
+            "product_name": "Smartwatch",
+            "category": "Electronics",
+            "brand": "Apple",
+            "price": 399.00,
+            "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/movr/curve/curve-02-228x228.webp"
+        },
+        {
+            "id": 9,
+            "product_name": "Gaming Chair",
+            "category": "Furniture",
+            "brand": "Secretlab",
+            "price": 459.99,
+            "image": "https://www.startech.com.bd/image/cache/catalog/ga…cougar/fusion-sf/fusion-sf-orange-01-228x228.webp"
+        },
+        {
+            "id": 10,
+            "product_name": "Sunglasses",
+            "category": "Accessories",
+            "brand": "Ray-Ban",
+            "price": 129.99,
+            "image": "https://img.drz.lazcdn.com/static/bd/p/6408405971ab6d42b4cd02dfbe8cc235.jpg_200x200q80.avif"
+        }
+    ]
+}

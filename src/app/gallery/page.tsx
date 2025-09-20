@@ -1,6 +1,9 @@
 import Image from "next/image";
 import nextImg from "../../assets/Rahe Jannat.jpg"
 
+
+// import nextImg from "@/assets/Rahe Jannat.jpg" ,,, eta dile evave o deoa jai ---> "<Image src={nextImg}"
+
 const GalleryPage = () => {
     return (
         <div className="text-center">
