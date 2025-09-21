@@ -1,8 +1,12 @@
-import Link from "next/link";
+"use client"
+// eta [const pathname = usePathname();] use korate "use client" neoa lagse
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-
+    const pathname = usePathname();
+    console.log(pathname);
 
     return (
         <nav className="w-full bg-gray-900 text-white px-6 py-3 flex items-center justify-between">
@@ -18,8 +22,20 @@ export default function Navbar() {
                         className="w-full max-w-md px-3 py-2 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-indigo-500"
                     />
                 </div>
-                <Link href="/products" className="hover:text-gray-300">Product</Link>
-                <Link href="/gallery" className="hover:text-gray-300">Gallery</Link>
+                <Link href="/products"
+                    className={`${pathname === "/products"
+                        ? "text-blue-500 font-semibold underline"
+                        : "text-white hover:underline"}`}
+                >
+                    Product
+                </Link>
+                <Link href="/gallery"
+                    className={`${pathname === "/gallery"
+                        ? "text-red-500 font-semibold underline"
+                        : "text-white hover:underline"}`}
+                >
+                    Gallery
+                </Link>
                 <Link href="/about" className="hover:text-gray-300">About</Link>
                 <Link href="/contact" className="hover:text-gray-300">Contact</Link>
                 <Link href="/dashboard" className="hover:text-gray-300">Dashboard</Link>
