@@ -12,6 +12,7 @@ const ProductsPage = async () => {
         //     revalidate: 30
         // }
     });
+
     const products = await res.json();
     // console.log(products);
 
