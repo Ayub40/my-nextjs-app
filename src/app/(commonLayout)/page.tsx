@@ -1,4 +1,5 @@
 "use client";
+import { Button } from "@/components/ui/button";
 // import Link from "next/link";
 import { useRouter } from "next/navigation";
 
@@ -19,9 +20,13 @@ const HomePage = () => {
       </Link> */}
 
       <button onClick={handleNavigation} className="bg-amber-500 p-1.5 rounded-md">Dashboard</button>
+      <Button>Click Me</Button>
 
     </div>
   );
 };
 
 export default HomePage;
+
+
+
